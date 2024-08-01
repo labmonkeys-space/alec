@@ -47,43 +47,43 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <asciitable.version>0.3.2</asciitable.version>
-        <awaitility.version>3.1.1</awaitility.version>
+        <awaitility.version>4.2.0</awaitility.version>
         <commons.csv.version>1.5</commons.csv.version>
         <commons.io.version>2.6</commons.io.version>
-        <commons.lang3.version>3.7</commons.lang3.version>
+        <commons.lang3.version>3.13.0</commons.lang3.version>
         <commons.math.version>3.6.1</commons.math.version>
-        <commons.text.version>1.3</commons.text.version>
-        <cxf.version>3.2.6</cxf.version>
+        <commons.text.version>1.11.0</commons.text.version>
+        <cxf.version>3.5.8</cxf.version>
         <drools.version>7.7.0.Final</drools.version>
-        <guava.major.version>24</guava.major.version>
-        <guava.version>24.1.1-jre</guava.version>
+        <guava.major.version>32</guava.major.version>
+        <guava.version>32.1.3-jre</guava.version>
         <groovy.version>2.4.16</groovy.version>
         <gson.version>2.8.2</gson.version>
         <hamcrest.version>1.3</hamcrest.version>
         <jakarta.version>2.3.3</jakarta.version>
-        <java.version>11</java.version>
-        <jackson.version>2.12.3</jackson.version>
+        <java.version>17</java.version>
+        <jackson.version>2.14.2</jackson.version>
         <jaxrs.version>2.1.1</jaxrs.version>
         <jung.version>2.1.1</jung.version>
-        <junit.version>4.12</junit.version>
-        <kafka.bundle.version>3.1.0_1</kafka.bundle.version>
+        <junit.version>4.13.2</junit.version>
+        <kafka.bundle.version>3.5.1_1</kafka.bundle.version>
         <kafka.scala.version>2.13</kafka.scala.version>
-        <kafka.version>3.1.0</kafka.version>
-        <karaf.version>4.3.6</karaf.version>
-        <log4j.version>2.17.0</log4j.version>
-        <lz4.version>1.6.0</lz4.version>
+        <kafka.version>3.6.0</kafka.version>
+        <karaf.version>4.3.10</karaf.version>
+        <log4j.version>2.21.1</log4j.version>
+        <lz4.version>1.8.0</lz4.version>
         <metrics.version>4.1.0</metrics.version>
-        <mockito.version>2.18.0</mockito.version>
+        <mockito.version>3.12.4</mockito.version>
         <moxy.version>2.7.3</moxy.version>
-        <okhttp.version>3.10.0</okhttp.version>
+        <okhttp.version>4.9.3</okhttp.version>
         <okio.bundle.version>1.14.0_1</okio.bundle.version>
         <okhttp.bundle.version>3.10.0_2</okhttp.bundle.version>
-        <opennms.api.version>1.0.0</opennms.api.version>
+        <opennms.api.version>1.6.0</opennms.api.version>
         <opennms.api.version.max>2.0.0</opennms.api.version.max><!-- exclusive ver. allowed for packages dependency rpm & deb-->
         <sink.protobuf.version>2.6.1</sink.protobuf.version>
         <osgi.version>6.0.0</osgi.version>
         <osgi.compendium.version>5.0.0</osgi.compendium.version>
-        <protobuf.version>3.5.1</protobuf.version>
+        <protobuf.version>3.24.4</protobuf.version>
         <rocksdb.version>6.22.1.1</rocksdb.version>
         <resilience4j.version>1.4.0</resilience4j.version>
         <slf4j-api.version>1.7.26</slf4j-api.version>
@@ -96,7 +96,7 @@
         <jersey-client.version>2.36</jersey-client.version>
         <grpc.version>1.46.0</grpc.version>
         <protobuf-java.version>3.19.3</protobuf-java.version>
-        <alec-gateway.version>0.3.0</alec-gateway.version>
+        <alec-gateway.version>1.1.2-SNAPSHOT</alec-gateway.version>
         <json-simple.version>1.1.1</json-simple.version>
         <httpclient-osgi.version>4.5.13</httpclient-osgi.version>
         <httpcore-osgi.version>4.4.15</httpcore-osgi.version>
