@@ -1,0 +1,22 @@
+---
+name: alec-build
+run-name: Build and run test suites for the ALEC project
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: quay.io/bluebird/java-builder:0.0.4.jdk-11
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add workspace to git safe.directory
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      - name: Compile with Maven
+        run: make compile
+      - name: Run JUnit test suite
+        run: make tests
+      - name: Run integration test suite
+        run: make integration-tests

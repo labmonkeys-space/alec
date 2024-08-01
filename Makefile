@@ -3,7 +3,7 @@
 ##
 .DEFAULT_GOAL := compile
 MAVEN_SETTINGS_XML    ?= ./.cicd-assets/settings.xml
-#MAVEN_ARGS            := --settings $(MAVEN_SETTINGS_XML)
+MAVEN_ARGS            := --settings $(MAVEN_SETTINGS_XML)
 ARTIFACTS_DIR         := target/artifacts
 
 .PHONY: help
